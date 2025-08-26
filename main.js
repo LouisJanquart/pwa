@@ -1,3 +1,5 @@
+import install from "./install.js";
+
 try {
   const response = await fetch(
     "https://ingrwf12.cepegra-frontend.xyz/cockpit1/api/content/items/voyages"
@@ -12,3 +14,5 @@ try {
 } catch (error) {
   console.error("Error fetching data:", error);
 }
+
+install();
