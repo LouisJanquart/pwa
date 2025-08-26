@@ -7,7 +7,7 @@
   "author": "Louis Janquart",
   "display": "standalone",
   "theme-color": "#b12a34",
-  "background_color": "#b12a34",
+  "background_color": "#0000ff",
   "icons": [
     {
       "src": "icons/favicon-16x16.png",
