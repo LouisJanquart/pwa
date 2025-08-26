@@ -23,6 +23,11 @@ const notifications = () => {
         }
       });
     }
+    myNotification.onclick = (e) => {
+      e.preventDefault();
+      window.open("https://cepegra.be", "_blank");
+    };
+    myNotification = null;
   });
 };
 
