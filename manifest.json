@@ -14,12 +14,16 @@
     {
       "src": "screenshots/screenshot-portrait.png",
       "sizes": "377x727",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Capture d'écran en mode portrait"
     },
     {
       "src": "screenshots/screenshot-landscape.png",
       "sizes": "769x565",
-      "type": "image/png"
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Capture d'écran en mode paysage"
     }
   ],
   "icons": [

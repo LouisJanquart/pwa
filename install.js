@@ -9,8 +9,16 @@ window.addEventListener("beforeinstallprompt", (e) => {
   installBtn.classList.remove("hidden");
 });
 
-installBtn.addEventListener("click", (e) => {
+installBtn.addEventListener("click", async (e) => {
   e.preventDefault();
-  installBtn.classList.add("hidden");
   deferredPrompt.prompt();
+  const userChoice = await deferredPrompt.userChoice;
+  if (userChoice == "accepted") {
+    installBtn.classList.add("hidden");
+  }
+  deferredPrompt = null;
+});
+
+window.addEventListener("appinstalled", (e) => {
+  installBtn.classList.add("hidden");
 });
