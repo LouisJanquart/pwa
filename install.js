@@ -20,7 +20,7 @@ const install = () => {
     deferredPrompt = null;
   });
 
-  window.addEventListener("appinstalled", (e) => {
+  window.addEventListener("appinstalled", () => {
     installBtn.classList.add("hidden");
   });
 };
