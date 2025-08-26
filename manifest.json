@@ -6,6 +6,8 @@
   "version": "1.0",
   "author": "Louis Janquart",
   "display": "standalone",
+  "theme-color": "#b12a34",
+  "background_color": "#b12a34",
   "icons": [
     {
       "src": "icons/favicon-16x16.png",
