@@ -17,3 +17,16 @@ body {
   margin: 0;
   font-family: "Oswald", sans-serif;
 }
+
+.hidden {
+  display: none;
+}
+
+.install-btn {
+  background-color: #b12a34;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
