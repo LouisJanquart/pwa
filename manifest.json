@@ -1,0 +1,31 @@
+{
+  "name": "PWA Demo",
+  "short_name": "PWA",
+  "description": "Une démonstration de Progressive Web App",
+  "start_url": "index.html",
+  "version": "1.0",
+  "author": "Louis Janquart",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/icon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
