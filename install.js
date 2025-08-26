@@ -25,4 +25,6 @@ const install = () => {
   });
 };
 
-export default install;
+install();
+
+// export default install;
