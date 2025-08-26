@@ -8,14 +8,16 @@
   "display": "standalone",
   "theme-color": "#b12a34",
   "background_color": "#0000ff",
+  "lang": "fr-BE",
+  "prefer_related_applications": false,
   "screenshots": [
     {
-      "src": "screenshots/screenshotportrait.png",
+      "src": "screenshots/screenshot-portrait.png",
       "sizes": "377x727",
       "type": "image/png"
     },
     {
-      "src": "screenshots/screenshotlandscape.png",
+      "src": "screenshots/screenshot-landscape.png",
       "sizes": "769x565",
       "type": "image/png"
     }
